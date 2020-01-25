@@ -12,8 +12,8 @@ int kmp_scan(char* str, char* letter) {
 	//이때는 str_p와 let_p가 다른 용도, 중복 판별을 위해 사용된다.
 	skip_p[str_p] = 0;
 	while (letter[str_p] != '\0') {	
-		if (letter[str_p] == letter[let_p]) {	
-			skip_p[++str_p] = ++let_p;
+		if (letter[str_p] == letter[let_p]) {	//같은지점 발견 시
+			skip_p[++str_p] = ++let_p;	//스킵 표 이동
 		}
 		else if (let_p == 0) {
 			skip_p[++str_p] = let_p;

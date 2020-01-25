@@ -85,5 +85,6 @@ int main() {
 	printf("\ndelete %d ",delete_heap(h));
 	printf("\ndelete %d", delete_heap(h));
 	printf("\ndelete %d", delete_heap(h));
+	free(h);
 	return 0;
 }

@@ -61,7 +61,7 @@ int main() {
 	char* str = "For every dreamer, a dream were unstoppable";
 	str_search(str, "unstoppable");
 	str_search(str, "every dreamer");
-	str_search(str, "dream"); //dreamer부터 검색하게 된다.
+	str_search(str, "dream");
 	str_search(str, "waiting for love");
 
 	//한글
@@ -69,7 +69,7 @@ int main() {
 	str_search(str2, "별빛");
 	str_search(str2, "저 괴물체는 뭘까");
 	str_search(str2, "마구 내려오지");
-	str_search(str2, "내려오지 경고"); //(별빛이)내려오지 부터 검색
+	str_search(str2, "내려오지 경고"); 
 	return 0;
 
 

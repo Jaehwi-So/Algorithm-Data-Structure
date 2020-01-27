@@ -1,4 +1,8 @@
-﻿#include<stdio.h>
+﻿/*
+Kruskal의 MST 알고리즘을 구현하여 그래프에서 최소 신장 트리를 구축하기.
+탐욕적인 방법으로 간선들을 가중치가 적은 순서대로 집합에 추가한다. 단 이 때 사이클이 도는 간선(root가 같은 간선)은 추가하지 않는다.
+*/
+#include<stdio.h>
 #include<stdlib.h>
 
 #define MAX_VERTICES 50

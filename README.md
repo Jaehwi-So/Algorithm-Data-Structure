@@ -1,5 +1,5 @@
 # 자료구조와 알고리즘(Data Structure and Algorithm)
-## C 기반의 자료구조와 알고리즘 구현 예제 Repository
+## C 기반의 자료구조와 유명한 알고리즘 구현
 
 -----------------------------
 ## 해당 Repository에 올려둔 실습 예제
